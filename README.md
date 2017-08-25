@@ -1,8 +1,7 @@
 # Kotlin Learn
 
 ### Using Singleton on Kotlin
-
-#### 
+##### 
 Ref: https://gist.github.com/ademar111190/de7c5fdc4a7ba29d8f5c
 ```kotlin
 public object MySingleton {
@@ -33,4 +32,4 @@ public class MySingleton {
 //Use it in Java
 MySingleton.getInstance().foo()
 ```
-#### 
+#####
