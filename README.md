@@ -6,6 +6,10 @@ Ref: https://stackoverflow.com/questions/34498562/in-kotlin-what-is-the-idiomati
 
 The !! operator asserts that the value is not null or throws an NPE. This should be used in cases where the developer is guaranteeing that the value will never be null. Think of it as an assert followed by a smart cast.
 
+The ? safe call operator returns null if the value to the left is null, otherwise continues to evaluate the expression to the right.
+
+The ?: Elvis operator allows you to provide an alternative value when an expression to the left of the operator is null
+
 ```kotlin
 val something: Xyz? = createPossiblyNullXyz()
 
